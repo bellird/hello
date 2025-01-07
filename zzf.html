@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嵌入聊天会话与用户信息</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #08010100;
+            display: flex;
+            justify-content: space-between;
+        }
+        .container {
+            max-width: 800px;
+            background-color: rgba(12, 156, 91, 0);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(219, 48, 48, 0.1);
+        }
+        .chat-iframe {
+            width: 100%;
+            height: 550px;
+            border: none;
+        }
+        .user-info {
+            width: 300px;
+            background-color: #e9e9e9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .user-info h2 {
+            margin-bottom: 10px;
+        }
+        .user-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎你！曾泽锋先生！</h1>
+        <p>这是一个嵌入的聊天会话，您可以在这里查看和参与聊天。</p>
+            <iframe
+            src="http://localhost/chat/share?shared_id=cff81aeccc8b11ef8bc30242ac120006&from=chat&auth=RhYzAwZGFjYzQ2ODExZWZiZWI2MDI0Mm"
+            style="width: 100%; height: 100%; min-height: 600px"
+            frameborder="0"
+            >
+            </iframe>
+~~~
+  
+    </div>
+    <div class="user-info">
+        <h2>用户信息 - 曾泽锋</h2>
+        <p><strong>年龄：</strong>30岁</p>
+        <p><strong>职业：</strong>软件工程师</p>
+        <p><strong>教育程度：</strong>硕士学位，毕业于上海交通大学计算机科学专业</p>
+        <p><strong>收入水平：</strong>月薪25,000元人民币</p>
+        <p><strong>购买习惯：</strong>偏好购买电子产品和书籍</p>
+        <p><strong>浏览历史：</strong>GitHub、Stack Overflow、知乎、澎湃新闻</p>
+        <p><strong>兴趣偏好：</strong>智能穿戴设备、最新科技产品、科幻小说</p>
+        <p><strong>关注话题：</strong>人工智能、区块链技术、环保议题</p>
+        <p><strong>性格特点：</strong>理性、好奇心强、有创新精神</p>
+        <p><strong>家庭状况：</strong>已婚，有一个5岁的女儿</p>
+        <p><strong>健康状况：</strong>注重健康，每周至少去健身房三次</p>
+        <p><strong>语言能力：</strong>流利的普通话和英语，正在学习日语</p>
+        <p><strong>旅行习惯：</strong>每年至少出国旅行一次，偏好自然风光和历史文化名胜</p>
+    </div>
+</body>
+</html>
